@@ -46,8 +46,7 @@ MACHINE LEARNING PIPELINE ARCHITECTURE
    - BatchNorm + Dense (256, L2 Regularization) + Dropout (0.5)
    - Dense (4 classes, Softmax)
 
-------------------------------------------------------------
-
+```
 DEPLOYMENT ARTIFACTS & SUBMISSION STRUCTURE
 
 The script is designed to act as an automated build tool. It creates a `submission/` folder and compresses it into a ready-to-deploy `.zip` archive containing:
@@ -65,7 +64,7 @@ submission/
     ├── requirements.txt
     └── notebook.ipynb
 
-------------------------------------------------------------
+```
 
 INSTALLATION
 
